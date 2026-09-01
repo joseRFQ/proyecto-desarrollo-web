@@ -4,5 +4,5 @@ const site = lume({
     prettyUrls: false,
 });
 
-site.add("/styles.css");
+site.add("/style.css");
 export default site;

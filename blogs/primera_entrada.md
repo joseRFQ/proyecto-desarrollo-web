@@ -1,13 +1,14 @@
 ---
 title: Primera entrada de blog
-layout: layout.vto
+layout: blog_layout.vto
+blogTitle: "Primera entrada y apertura del blog :)"
+summary: "Entrada que habla acerca de los orígenes del blog, y las primeras impresiones de las herramientas realizadas"
 tags:
   - blog
   - lume
   - deno
   - vento
 ---
-# Primera entrada y apertura del blog :)
 
 Primero de todo, bienvenidos a un blog que será relativamente corto, en el que expresaré algunas cosillas sobre el mismo, de forma distendida.
 

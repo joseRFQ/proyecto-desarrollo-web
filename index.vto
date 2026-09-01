@@ -1,0 +1,32 @@
+---
+layout: layout.vto
+title: Página de Inicio
+---
+
+<header>
+  <h1>
+  Bienvenido al blog!
+  </h1>
+</header>
+
+<main>
+  <p>
+  En este blog iré comentando un poco acerca del mismo, el stack tecnológico elegido, así como otros aspectos
+  relacionados con el desarrollo de este proyecto, sean técnicos o un poco más personales.
+  </p>
+
+  <h2>
+  Lista de las entradas/articulos generados en el blog:
+  </h2>
+
+<ul>
+{{ for blog of search.pages("blog") }}
+ <a href={{blog.url}}>
+ <li>{{blog.blogTitle}}</li>
+
+<p>{{ blog.summary }}</p>
+ </a>
+{{/for}}
+</ul>
+
+</main>
